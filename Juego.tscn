@@ -10,6 +10,7 @@ extents = Vector3( 2.43836, 1, 1 )
 [node name="Spatial" type="Spatial"]
 
 [node name="jugador" type="KinematicBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.94353, 0 )
 script = ExtResource( 2 )
 
 [node name="NaveEstandar" parent="jugador" instance=ExtResource( 1 )]
